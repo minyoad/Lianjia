@@ -369,7 +369,7 @@ def GetCompleteHousingInfo(city):
 
 
 if __name__ == '__main__':
-    city = '郑州'
-    #SaveCityBorderIntoDB(city)  # 下载城市区域数据
-    HoleCityDown(city)  # 下载区域住房数据
-    #GetCompleteHousingInfo(city)  # 获取详细在售房屋
+    city = '厦门'
+    # SaveCityBorderIntoDB(city)  # 下载城市区域数据
+    # HoleCityDown(city)  # 下载区域住房数据
+    GetCompleteHousingInfo(city)  # 获取详细在售房屋
